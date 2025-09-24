@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Términos y Condiciones - Mi Partido App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header animado -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <i class="fas fa-futbol logo-icon"></i>
+                    <h1 class="app-title">Mi Partido</h1>
+                </div>
+                <nav class="nav">
+                    <a href="#inicio" class="nav-link">Inicio</a>
+                    <a href="#terminos" class="nav-link">Términos</a>
+                    <a href="#privacidad" class="nav-link">Privacidad</a>
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                    <button class="dark-mode-toggle" title="Alternar modo oscuro">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-background">
+            <div class="football-field"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Términos y Condiciones</h2>
+                <p class="hero-subtitle">Conoce las reglas del juego para usar nuestra app de fútbol amateur</p>
+                <div class="hero-icons">
+                    <i class="fas fa-trophy"></i>
+                    <i class="fas fa-users"></i>
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('terminos')">
+                    <i class="fas fa-scroll"></i>
+                    Ver Términos
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Términos y Condiciones Section -->
+    <section id="terminos" class="terms-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Términos y Condiciones de Uso</h2>
+                <p class="section-subtitle">Última actualización: [FECHA_ACTUALIZACION]</p>
+            </div>
+
+            <!-- Sección 1: Información General -->
+            <div class="term-card" data-aos="fade-up">
+                <div class="term-header">
+                    <i class="fas fa-info-circle"></i>
+                    <h3>1. Información General</h3>
+                </div>
+                <div class="term-content">
+                    <div class="placeholder-content">
+                        <p><strong>[COLOCAR AQUÍ]:</strong> Información sobre tu empresa/organización</p>
+                        <ul>
+                            <li>Nombre completo de la empresa</li>
+                            <li>Dirección física</li>
+                            <li>Información de contacto</li>
+                            <li>Descripción general de la app</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección 2: Aceptación de Términos -->
+            <div class="term-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="term-header">
+                    <i class="fas fa-handshake"></i>
+                    <h3>2. Aceptación de los Términos</h3>
+                </div>
+                <div class="term-content">
+                    <div class="placeholder-content">
+                        <p><strong>[COLOCAR AQUÍ]:</strong> Condiciones de aceptación</p>
+                        <ul>
+                            <li>Cómo el usuario acepta los términos</li>
+                            <li>Edad mínima para usar la app</li>
+                            <li>Responsabilidad de los padres/tutores</li>
+                            <li>Actualizaciones de términos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección 3: Uso de la Aplicación -->
+            <div class="term-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="term-header">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>3. Uso de la Aplicación</h3>
+                </div>
+                <div class="term-content">
+                    <div class="placeholder-content">
+                        <p><strong>[COLOCAR AQUÍ]:</strong> Reglas de uso de la app</p>
+                        <ul>
+                            <li>Funcionalidades permitidas</li>
+                            <li>Comportamiento esperado del usuario</li>
+                            <li>Prohibiciones específicas</li>
+                            <li>Consecuencias por mal uso</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección 4: Registro y Cuentas -->
+            <div class="term-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="term-header">
+                    <i class="fas fa-user-plus"></i>
+                    <h3>4. Registro y Cuentas de Usuario</h3>
+                </div>
+                <div class="term-content">
+                    <div class="placeholder-content">
+                        <p><strong>[COLOCAR AQUÍ]:</strong> Proceso de registro</p>
+                        <ul>
+                            <li>Información requerida para registro</li>
+                            <li>Verificación de datos</li>
+                            <li>Responsabilidad del usuario por su cuenta</li>
+                            <li>Suspensión o eliminación de cuentas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección 5: Organización de Partidos -->
+            <div class="term-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="term-header">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>5. Organización de Partidos</h3>
+                </div>
+                <div class="term-content">
+                    <div class="placeholder-content">
+                        <p><strong>[COLOCAR AQUÍ]:</strong> Reglas para organizar partidos</p>
+                        <ul>
+                            <li>Proceso de creación de partidos</li>
+                            <li>Responsabilidades del organizador</li>
+                            <li>Cancelación de partidos</li>
+                            <li>Resolución de conflictos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección 6: Pagos y Transacciones -->
+            <div class="term-card" data-aos="fade-up" data-aos-delay="500">
+                <div class="term-header">
+                    <i class="fas fa-credit-card"></i>
+                    <h3>6. Pagos y Transacciones</h3>
+                </div>
+                <div class="term-content">
+                    <div class="placeholder-content">
+                        <p><strong>[COLOCAR AQUÍ]:</strong> Política de pagos</p>
+                        <ul>
+                            <li>Métodos de pago aceptados</li>
+                            <li>Política de reembolsos</li>
+                            <li>Comisiones de la plataforma</li>
+                            <li>Disputas de pago</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección 7: Responsabilidades y Limitaciones -->
+            <div class="term-card" data-aos="fade-up" data-aos-delay="600">
+                <div class="term-header">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>7. Responsabilidades y Limitaciones</h3>
+                </div>
+                <div class="term-content">
+                    <div class="placeholder-content">
+                        <p><strong>[COLOCAR AQUÍ]:</strong> Limitaciones de responsabilidad</p>
+                        <ul>
+                            <li>Responsabilidad por lesiones</li>
+                            <li>Seguro recomendado</li>
+                            <li>Limitaciones de la plataforma</li>
+                            <li>Exención de responsabilidad</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección 8: Propiedad Intelectual -->
+            <div class="term-card" data-aos="fade-up" data-aos-delay="700">
+                <div class="term-header">
+                    <i class="fas fa-copyright"></i>
+                    <h3>8. Propiedad Intelectual</h3>
+                </div>
+                <div class="term-content">
+                    <div class="placeholder-content">
+                        <p><strong>[COLOCAR AQUÍ]:</strong> Derechos de propiedad</p>
+                        <ul>
+                            <li>Derechos sobre la app</li>
+                            <li>Contenido generado por usuarios</li>
+                            <li>Uso de marcas registradas</li>
+                            <li>Violaciones de derechos de autor</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Privacidad -->
+    <section id="privacidad" class="privacy-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Política de Privacidad</h2>
+                <p class="section-subtitle">Protegemos tu información personal</p>
+            </div>
+
+            <div class="privacy-grid">
+                <div class="privacy-card" data-aos="zoom-in">
+                    <i class="fas fa-database"></i>
+                    <h3>Recolección de Datos</h3>
+                    <div class="placeholder-content">
+                        <p><strong>[COLOCAR AQUÍ]:</strong></p>
+                        <ul>
+                            <li>Qué datos recolectas</li>
+                            <li>Cómo los recolectas</li>
+                            <li>Propósito de la recolección</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="privacy-card" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fas fa-lock"></i>
+                    <h3>Uso de la Información</h3>
+                    <div class="placeholder-content">
+                        <p><strong>[COLOCAR AQUÍ]:</strong></p>
+                        <ul>
+                            <li>Cómo usas los datos</li>
+                            <li>Con quién los compartes</li>
+                            <li>Medidas de seguridad</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="privacy-card" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fas fa-user-shield"></i>
+                    <h3>Derechos del Usuario</h3>
+                    <div class="placeholder-content">
+                        <p><strong>[COLOCAR AQUÍ]:</strong></p>
+                        <ul>
+                            <li>Derecho a acceso</li>
+                            <li>Derecho a rectificación</li>
+                            <li>Derecho al olvido</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">¿Tienes Preguntas?</h2>
+                <p class="section-subtitle">Contáctanos para resolver cualquier duda</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><strong>Mipartido.oficial@gmail.com</strong></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p><strong>92634616717</strong></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Dirección</h4>
+                            <p><strong>Barrio Portal de la colonia M-B C7</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form" data-aos="fade-left">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Tu email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo-section">
+                        <i class="fas fa-futbol"></i>
+                        <span>Mi Partido</span>
+                    </div>
+                    <p>La mejor app para organizar partidos de fútbol amateur</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#terminos">Términos</a></li>
+                        <li><a href="#privacidad">Privacidad</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href="https://facebook.com/mipartido.oficial" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://instagram.com/mipartido.oficial" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/mipartido_app" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://wa.me/5492634616717" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mi Partido. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
