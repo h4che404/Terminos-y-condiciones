@@ -453,6 +453,45 @@ body {
     color: var(--text-light);
 }
 
+.privacy-content {
+    text-align: left;
+}
+
+.privacy-content p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.privacy-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.privacy-content li {
+    padding: 8px 0;
+    padding-left: 25px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.privacy-content li::before {
+    content: '🔒';
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+
+.privacy-content a {
+    color: var(--accent-color);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+    transition: var(--transition);
+}
+
+.privacy-content a:hover {
+    border-bottom-color: var(--accent-color);
+}
+
 /* Contact Section */
 .contact-section {
     padding: 100px 0;
